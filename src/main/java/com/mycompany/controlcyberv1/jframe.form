@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Equipos"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Agregar Equipo"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" Tarifa"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_IngresarTarifa">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ingresar Tarifa"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem_IngresarTarifaActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+          <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+          <Component id="jPanel4" alignment="0" min="-2" max="-2" attributes="0"/>
+          <Component id="jPanel11" alignment="0" min="-2" max="-2" attributes="0"/>
+          <Component id="jPanel9" alignment="0" min="-2" max="-2" attributes="0"/>
+          <Component id="jPanel8" alignment="0" min="-2" max="-2" attributes="0"/>
+          <Component id="jPanel10" alignment="0" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel4" min="-2" pref="64" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel11" min="-2" pref="64" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jPanel9" min="-2" pref="65" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel8" min="-2" pref="65" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jPanel10" min="-2" pref="65" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="58" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" pref="80" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                  <Component id="jLabel3" min="-2" pref="96" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" pref="80" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jLabel6" min="-2" pref="119" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel5" min="-2" pref="91" max="-2" attributes="0"/>
+                  <EmptySpace pref="29" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="jLabel5" alignment="3" max="32767" attributes="0"/>
+                          <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="EQUIPO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="ESTADO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="HORA INICIO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="HORA FIN "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="TRANSCURRIDO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="TOTAL "/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btn1" min="-2" pref="61" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="txt_estado1" min="-2" pref="134" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="txt_ini1" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="txt_fin1" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="txt_transcurrido1" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="txt_cobrar1" min="-2" pref="81" max="-2" attributes="0"/>
+                  <EmptySpace pref="33" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="txt_cobrar1" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                      <Group type="103" alignment="1" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="txt_estado1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btn1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txt_ini1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txt_fin1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txt_transcurrido1" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="33" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="txt_estado1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="OCR A Extended" size="18" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="---"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_cobrar1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="0" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txt_ini1">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txt_fin1">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txt_transcurrido1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="btn1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="PC1"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn1ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel4">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btn2" min="-2" pref="61" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="txt_estado2" min="-2" pref="134" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="txt_ini2" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="txt_fin2" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Component id="txt_transcurrido2" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="txt_cobrar2" min="-2" pref="81" max="-2" attributes="0"/>
+                  <EmptySpace pref="39" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btn2" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="txt_estado2" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="txt_ini2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_fin2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_transcurrido2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_cobrar2" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="255" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="txt_estado2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="OCR A Extended" size="18" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="---"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_cobrar2">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txt_ini2">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txt_fin2">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txt_transcurrido2">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="btn2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="PC2"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn2ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel11">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnE" min="-2" pref="61" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="txt_estadoE" min="-2" pref="134" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="txt_iniE" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="txt_finE" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Component id="txt_transcurridoE" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="txt_cobrarE" min="-2" pref="81" max="-2" attributes="0"/>
+                  <EmptySpace pref="39" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnE" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="txt_estadoE" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="txt_iniE" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_finE" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_transcurridoE" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_cobrarE" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="255" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="txt_estadoE">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="OCR A Extended" size="18" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="---"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_cobrarE">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txt_iniE">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txt_finE">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txt_transcurridoE">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="btnE">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="PC3"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel9">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnA" min="-2" pref="61" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="txt_estadoA" min="-2" pref="134" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="txt_iniA" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="txt_finA" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Component id="txt_transcurridoA" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="txt_cobrarA" min="-2" pref="81" max="-2" attributes="0"/>
+                  <EmptySpace pref="39" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnA" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="txt_estadoA" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="txt_iniA" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_finA" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_transcurridoA" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_cobrarA" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="255" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="txt_estadoA">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="OCR A Extended" size="18" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="---"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_cobrarA">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txt_iniA">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txt_finA">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txt_transcurridoA">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="btnA">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="PC4"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel8">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnS" min="-2" pref="61" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="txt_estadoS" min="-2" pref="134" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="txt_iniS" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="txt_finS" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Component id="txt_transcurridoS" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="txt_cobrarS" min="-2" pref="81" max="-2" attributes="0"/>
+                  <EmptySpace pref="39" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnS" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="txt_estadoS" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="txt_iniS" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_finS" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_transcurridoS" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_cobrarS" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="255" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="txt_estadoS">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="OCR A Extended" size="18" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="---"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_cobrarS">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_cobrarSActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txt_iniS">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txt_finS">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txt_transcurridoS">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="btnS">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="PC5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel10">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnG" min="-2" pref="61" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="txt_estadoG" min="-2" pref="134" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="txt_iniG" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="txt_finG" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Component id="txt_transcurridoG" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="txt_cobrarG" min="-2" pref="81" max="-2" attributes="0"/>
+                  <EmptySpace pref="39" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnG" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="txt_estadoG" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="txt_iniG" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_finG" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_transcurridoG" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_cobrarG" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="255" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="txt_estadoG">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="OCR A Extended" size="18" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="---"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_cobrarG">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txt_iniG">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txt_finG">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txt_transcurridoG">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="------"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="btnG">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="PC6"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
