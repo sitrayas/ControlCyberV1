@@ -194,10 +194,9 @@ private double calcularCostoPorIntervalo(long minutosTranscurridos, double[] tar
         txt_transcurridoG = new javax.swing.JLabel();
         btnG = new javax.swing.JToggleButton();
         jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
         jMenuItem_IngresarTarifa = new javax.swing.JMenuItem();
+        jMenuItemAcercaDe = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -258,11 +257,7 @@ private double calcularCostoPorIntervalo(long minutosTranscurridos, double[] tar
         txt_estado1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         txt_estado1.setText("---");
 
-        txt_cobrar1.setEditable(false);
-        txt_cobrar1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        txt_cobrar1.setForeground(new java.awt.Color(255, 0, 51));
         txt_cobrar1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt_cobrar1.setBorder(null);
 
         txt_ini1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         txt_ini1.setText("------");
@@ -296,23 +291,28 @@ private double calcularCostoPorIntervalo(long minutosTranscurridos, double[] tar
                 .addComponent(txt_fin1, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(txt_transcurrido1, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(txt_cobrar1, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(33, Short.MAX_VALUE))
+                .addContainerGap(39, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(txt_cobrar1, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(txt_estado1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btn1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(txt_ini1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(txt_fin1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(txt_transcurrido1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addContainerGap(33, Short.MAX_VALUE))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(txt_cobrar1, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(txt_estado1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
+                            .addComponent(txt_ini1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(txt_fin1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(txt_transcurrido1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addContainerGap(33, Short.MAX_VALUE))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(btn1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(6, 6, 6))))
         );
 
         txt_estado2.setFont(new java.awt.Font("OCR A Extended", 1, 18)); // NOI18N
@@ -366,7 +366,7 @@ private double calcularCostoPorIntervalo(long minutosTranscurridos, double[] tar
                     .addComponent(txt_ini2)
                     .addComponent(txt_fin2)
                     .addComponent(txt_transcurrido2)
-                    .addComponent(txt_cobrar2, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txt_cobrar2, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(255, 255, 255))
         );
 
@@ -595,13 +595,6 @@ private double calcularCostoPorIntervalo(long minutosTranscurridos, double[] tar
                 .addGap(255, 255, 255))
         );
 
-        jMenu1.setText("Equipos");
-
-        jMenuItem1.setText("Agregar Equipo");
-        jMenu1.add(jMenuItem1);
-
-        jMenuBar1.add(jMenu1);
-
         jMenu2.setText(" Tarifa");
 
         jMenuItem_IngresarTarifa.setText("Ingresar Tarifa");
@@ -611,6 +604,14 @@ private double calcularCostoPorIntervalo(long minutosTranscurridos, double[] tar
             }
         });
         jMenu2.add(jMenuItem_IngresarTarifa);
+
+        jMenuItemAcercaDe.setText("Acerca de");
+        jMenuItemAcercaDe.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItemAcercaDeActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenuItemAcercaDe);
 
         jMenuBar1.add(jMenu2);
 
@@ -793,6 +794,11 @@ private double calcularCostoPorIntervalo(long minutosTranscurridos, double[] tar
         }
     }//GEN-LAST:event_btnGActionPerformed
 
+    private void jMenuItemAcercaDeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemAcercaDeActionPerformed
+        AcercaDe ad = new AcercaDe();
+        ad.show();
+    }//GEN-LAST:event_jMenuItemAcercaDeActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -841,10 +847,9 @@ private double calcularCostoPorIntervalo(long minutosTranscurridos, double[] tar
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem jMenuItemAcercaDe;
     private javax.swing.JMenuItem jMenuItem_IngresarTarifa;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
